@@ -1,0 +1,70 @@
+body {
+  font-family: Lucida Handwriting, serif; 
+  background-color: PaleVioletRed; 
+  margin: 0;
+  padding: 0;
+}
+
+
+body > h1 {
+  text-align: center;
+  color: LavenderBlush;
+  margin: 50px 0;
+  font-size: 1.9rem;
+}
+
+h3 {
+  color: LavenderBlush;
+}
+
+h4 {
+  color: PaleVioletRed;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.showtime-card:hover {
+  transform: scale(1.05);          
+  background: mistyrose;           
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: white;
+}
+
+table thead {
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+table td, 
+table th {
+  border: 1px solid #d8bfd8; 
+  padding: 10px;
+}
+
+
+table tbody tr:nth-child(even) {
+  background-color:#f9f0ff;; 
+}
+
+table tbody td {
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+}
+
+a {
+  color: plum;
+   font-size: 1.5rem;
+  text-decoration: underline;
+}
