@@ -1,0 +1,51 @@
+body {
+      background-color: #f8f9fa;
+    }
+	
+	h3 {
+		font-family: Georgia, serif;
+	}
+	
+	h5 {
+		font-family: Georgia, serif; 
+	}
+	
+    .card {
+      border-radius: 10px;
+    }
+    #imageBox {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border: 2px solid #ccc;
+      border-radius: 6px;
+      overflow: hidden;
+      cursor: pointer;
+      text-align: center;
+    }
+    #imageBox:hover {
+      border-color: #6c757d;
+    }
+    #imagePreview {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: none;
+    }
+    #uploadText {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #777;
+      font-size: 14px;
+    }
+	
+	.btn-primary, .btn-success {
+  background-color: #ff66b2;
+  border: none;
+}
+
+.btn-primary:hover, .btn-success:hover {
+  background-color: #ff4da6;
+	
